@@ -1,0 +1,27 @@
+[
+    { //开始调试
+        "key": "f5",
+        "command": "workbench.action.debug.start",
+        "when": "editorTextFocus"
+    },
+    { //运行（不调试）
+        "key": "ctrl+f5",
+        "command": "workbench.action.debug.run",
+        "when": "editorTextFocus"
+    },
+    { //重新启动调试
+        "key": "ctrl+shift+f5",
+        "command": "workbench.action.debug.restart",
+        "when": "editorTextFocus"
+    },
+    { //停止调试
+        "key": "shift+f5",
+        "command": "workbench.action.debug.stop",
+        "when": "inDebugMode"
+    },
+    { //构建
+        "key": "ctrl+shift+b",
+        "command": "workbench.action.tasks.build",
+        "when": "editorTextFocus"
+    }
+]
